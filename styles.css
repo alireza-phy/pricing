@@ -5,42 +5,57 @@ body {
 }
 
 pricing.countainer {
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .pricing-header {
+    width: 90vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    justify-items: center;
 }
 
 .pricing-header div {
-    margin: 1rem 6rem;
+    margin:2vw 0 1vw 6vw;
+}
+
+.pricing-header>div>h1{
+    font-size: 3vw;
+    font-weight: bold;
 }
 
 .pricing-header h2 {
-    margin: 1rem 6rem;
+    margin:0 0 2vw 6vw;
+    font-size: 1.5vw;
+    color: darkgrey;
 }
-
 input {
-    margin:3rem 12rem;
+    margin:3vw 12vw;
+    background-color: #7c01e8;
 }
-
 
 .pricing-plans {
+    margin: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 40rem;
+    height:fit-content;
 }
-
+ion-icon {
+    display: inline-block;
+    font-size: 1.3vw;
+    color: gray;
+    margin-right: 0.5vw;
+}
 .sheet {
-    padding: 1rem;
-    border-radius: 1rem;
-    margin-right: 1rem;
-    width: 14rem;
-    height: 29rem;
+    padding: 1vw;
+    border-radius: 1vw;
+    margin-right: 1vw;
+    width: 19vw;
+    height: auto;
     background-color: whitesmoke;
 }
 
@@ -52,26 +67,55 @@ input {
 background-color: #7c01e8;
     color: #ffd2c3;
 }
-
+.popular>div>h4 {
+    color: #ffe9e1;
+}
+.popular>p {
+    color: #ffe9e1;
+}
+#icon-popular {
+    color: #ffe9e1;
+}
 .popular button {
     background-color: #ffd2c3;
 }
-ul {
-    font-size: 0.8rem;
-    padding: 2rem;
-    line-height: 2rem;
-    list-style-image: url('https://api.iconify.design/teenyicons/tick-circle-solid.svg?color=%23a3a1ad&width=15');
+.sheet h2 {
+    font-size: 2vw;
+}
+h3 {
+    font-size: 2.6vw;
+    display: inline;
+}
+h4 {
+    font-size: 1.2vw;
+    color: slategray;
+}
+p {
+    display: inline;
+    font-size: 1.4vw;
+    color: gray;
+    vertical-align: text-top;
+}
+dl {
+    font-size: 0.8vw;
+    padding: 2vw;
+    line-height: 2vw;
+}
+dd {
+    display: inline-block;
+    margin: 1vw;
+    line-height: 1vw;
 }
 
 .sheet button {
-    margin-left: 1rem;
-    width: 8rem;
-    height: 2rem;
+    margin-left: 3vw;
+    width: 12vw;
+    height: 3vw;
     color: rebeccapurple;
-    border-radius: 0.5rem;
-    padding: 0.5rem 0.7rem;
-    border: 0.1rem solid gray;
-    font-size: 0.8rem;
+    border-radius: 0.5vw;
+    padding: 0.5vw 0.7vw;
+    border: 0.1vw solid gray;
+    font-size: 0.9vw;
     font-weight: bold;
 }
 
