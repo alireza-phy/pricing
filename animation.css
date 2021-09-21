@@ -1,0 +1,21 @@
+.animation {
+    animation-name: animation;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes animation {
+    0% {
+        transform: scale(0);
+    }
+    35% {
+        transform: scale(1.1);
+    }
+    70% {
+        transform: translate(5px);
+        background: rgba(132, 26, 231, 0.69);
+    }
+    100% {
+        transform: translate(0);
+    }
+}

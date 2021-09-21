@@ -1,0 +1,83 @@
+@media screen and (max-width: 430px) {
+    .pricing-countainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pricing-header {
+        width: 100vw;
+    }
+
+    .pricing-header div {
+        margin:1vw 6vw 3vw 2vw;
+    }
+    .pricing-header>div>h1{
+        display: block;
+        font-size: 6vw;
+    }
+    .toggle {
+         display:inline;
+    }
+    .pricing-header>h2{
+        display: none;
+    }
+
+    .pricing-header h2 {
+        margin-left: 2vw;
+        font-size: 2.5vw;
+    }
+
+    input {
+        margin:1vw 6vw;
+    }
+
+    .pricing-plans {
+        flex-direction: column;
+    }
+    ion-icon {
+        font-size: 6.5vw;
+        margin-right: 2.5vw;
+    }
+
+    .sheet {
+        width: 80%;
+        border-radius: 10vw;
+        margin-left: 6vw;
+        margin-top: 5vw;
+    }
+
+    .sheet h2 {
+        font-size: 10vw;
+    }
+    h3 {
+        font-size: 13vw;
+    }
+    h4 {
+        font-size: 6vw;
+    }
+    p {
+        font-size: 7vw;
+    }
+    dl {
+        font-size: 4vw;
+        padding: 2vw;
+        line-height: 4vw;
+    }
+    dd {
+        font-size: 5vw;
+        margin: 2vw;
+        line-height: 2vw;
+    }
+
+    .sheet button {
+        margin-left: 4vw;
+        width: 60vw;
+        height: 15vw;
+        border-radius: 2.5vw;
+        margin: 0 0 4vw 9vw;
+        padding: 2.5vw 3.5vw;
+        border: 0.5vw solid gray;
+        font-size: 4.5vw;
+    }
+
+}
